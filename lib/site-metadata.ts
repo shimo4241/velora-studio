@@ -38,7 +38,7 @@ export function createLocaleMetadata(locale: Locale): Metadata {
   const seo = localeSeo[locale];
 
   return {
-    metadataBase: new URL("https://velora.com"),
+    metadataBase: new URL("https://velora-studioo.vercel.app"),
     title: {
       default: seo.title,
       template: "%s | Velora"

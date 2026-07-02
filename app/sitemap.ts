@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const siteUrl = "https://velora.com";
+const siteUrl = "https://velora-studioo.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
